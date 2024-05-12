@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar>span{
+    display: flex;
+    padding: 10px 30px;
+    margin-right: 20px;
+}
+.navbar>span>p{
+    padding: 0px 20px;
+    font-size: 20px;
+}
+.logo{
+    padding: 30px 25px;
+    font-size: 25px;
+    font-weight: bolder;
+}
+#btn{
+    background-color: #324155ff;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+@media screen and (max-width:768px) {
+    .navbar{
+        display: flex;
+        flex-direction: column;
+    }
+}
